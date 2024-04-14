@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "native_crash_course",
-    "slug": "native_crash_course",
+    "name": "Aora",
+    "slug": "aora",
     "version": "1.0.0",
+    "scheme": "aora",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -21,10 +22,14 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package" :"com.anjan.aoradev"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
